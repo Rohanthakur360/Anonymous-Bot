@@ -4,8 +4,8 @@ from pyrogram import (
     )
 
 MESSAGE = """
-Hey, You want to use me In Group ?\nTell this thing
-in @FutureCodes !!\nCurrently Leaving 👋
+Hey yo!, You want to use me In Group ?\nTell this
+in @NexaBots !!\nCurrently Leaving 👋
 """
 
 
