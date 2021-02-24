@@ -24,7 +24,7 @@ else:
 
 
 REPLY_MARKUP = InlineKeyboardMarkup([
-    [InlineKeyboardButton("⚜️Support Group ⚜️",
+    [InlineKeyboardButton("⚜️ My Updates Channel ⚜️",
                           url="t.me/NexaBotsUpdates")],
     [InlineKeyboardButton("🔰 Dev 🔰",
                           url="t.me/Bruh_0x")]])
