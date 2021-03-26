@@ -12,14 +12,14 @@ from pyrogram.types import (
 @Client.on_message(filters.caption & filters.private)
 async def addorno(client, message):
     msg = message.message_id
-    await message.reply_text('Do You Need Caption ? 🤔',
+    await message.reply_text('Hmm... Do You Need Caption ? 🤔',
                              quote=True,
                              reply_markup=InlineKeyboardMarkup(
                                [[InlineKeyboardButton(
-                                   text="Yes ✅",
+                                   text="✅ Yeah I want it!",
                                    callback_data=f"yes-{msg}"),
                                  InlineKeyboardButton(
-                                     text="No ❌",
+                                     text="❌ Wtf, No!",
                                      callback_data=f"no-{msg}")]])
                              )
 
